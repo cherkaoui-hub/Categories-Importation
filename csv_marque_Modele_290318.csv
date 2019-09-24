@@ -1,0 +1,288 @@
+MARQUE,MODELE
+Alfa Romeo,Giulia
+Alfa Romeo,MiTo
+Alfa Romeo,Giulietta
+Alfa Romeo,4C
+Aston Martin,Vantage
+Aston Martin,DB9 GT
+Aston Martin,Vanquish
+Aston Martin,Rapid S
+Audi,A4
+Audi,A1
+Audi,A3
+Audi,A5
+Audi,A6
+Audi,A7
+Audi,A8
+Audi,Q3
+Audi,Q5
+Audi,TT
+Audi,R8
+Audi,Q7
+Bentley,Flying Spur
+Bentley,Continental
+Bentley,Mulsanne
+BMW,Serie 1
+BMW,Serie 2
+BMW,Serie 2 Active Tourer
+BMW,Serie 3
+BMW,Serie 4
+BMW,Serie 5
+BMW,Serie 6
+BMW,Serie 7
+BMW,X1
+BMW,X4
+BMW,X3
+BMW,X5
+BMW,X6
+BMW,i3
+BMW,i8
+BMW,Z4
+Bugatti,Veyron
+Cadillac,CTS
+Cadillac,ATS
+Cadillac,SRX
+Cadillac,Escalade
+Citron,C1
+Citron,C3
+Citron,C3 Picasso
+Citron,C4 Cactus
+Citron,C4 Picasso
+Citron,C4
+Citron,Nemo
+Citron,C4 Aircross
+Citron,C5
+Dacia,Sandero
+Dacia,Logan
+Dacia,Duster
+Dacia,Dokker
+Dacia,Lodgy
+DS,DS3
+DS,DS4
+DS,DS5
+Ferrari,488 GTB
+Ferrari,California T
+Ferrari,FF
+Ferrari,LaFerrari
+Ferrari,F12 Berlinetta
+Fiat,500
+Fiat,Qubo
+Fiat,500 X
+Fiat,500 L
+Fiat,Panda
+Fiat,Punto
+Fiat,Doblo
+Fiat,Tipo
+Ford,Mustang
+Ford,Ecosport
+Ford,Ka
+Ford,Fiesta
+Ford,Kuga
+Ford,Focus
+Ford,Mondeo
+Ford,Ranger
+Ford,Edge
+Ford,B-Max
+Ford,C-Max
+Ford,S-Max
+Ford,Galaxy
+Honda,Civic
+Honda,CR-V
+Honda,HR-V
+Honda,Jazz
+Hyundai,i20
+Hyundai,ix20
+Hyundai,i10
+Hyundai,Veloster
+Hyundai,i30
+Hyundai,i40
+Hyundai,Tucson
+Hyundai,Santa Fe
+Infiniti,Q30
+Infiniti,Q50
+Infiniti,Q70
+Infiniti,QX50
+Infiniti,QX70
+Jaguar,XE
+Jaguar,XF
+Jaguar,F-Type
+Jaguar,F-Pace
+Jaguar,XJ
+Jeep,Renegade
+Jeep,Cherokee
+Jeep,Grand Cherokee
+Jeep,Wrangler
+Kia,Picanto
+Kia,Rio
+Kia,Soul
+Kia,Venga
+Kia,Cee'd
+Kia,Carens
+Kia,Sportage
+Kia,Optima
+Kia,Sorento
+Lamborghini,Huracan
+Lamborghini,Aventador
+Lancia,Ypsilon
+Land Rover,Discovery Sport
+Land Rover,Defender
+Land Rover,Range Rover Sport
+Land Rover,Discovery
+Land Rover,Evoque
+Land Rover,Range Rover
+Lexus,NX
+Lexus,IS
+Lexus,RC
+Lexus,CT 200h
+Lexus,GS
+Lexus,LS
+Lexus,RX
+Maserati,Ghibli
+Maserati,Quattroporte
+Maserati,GranTurismo
+Maserati,GranCabrio
+Mazda,Mazda CX-3
+Mazda,Mazda 2
+Mazda,Mazda 3
+Mazda,Mazda 6
+Mazda,CX-5
+Mazda,MX-5
+McLaren,540 C
+McLaren,570 S
+McLaren,675 LT
+McLaren,650 S 
+Mercedes,GLC
+Mercedes,Classe A
+Mercedes,CLA
+Mercedes,GLA
+Mercedes,Classe B
+Mercedes,Classe C
+Mercedes,Classe E
+Mercedes,CLS
+Mercedes,GLE
+Mercedes,Classe S
+Mercedes,Amg GT
+Mercedes,SLC
+Mercedes,SL
+Mercedes,GLS
+Mercedes,Classe G
+MINI,Clubman
+MINI,Cabriolet
+MINI,Mini
+MINI,Countryman
+MINI,Paceman
+Mitsubishi,Space Star
+Mitsubishi,ASX
+Mitsubishi,Outlander
+Mitsubishi,Pajero
+Mitsubishi,L200
+Nissan,Micra
+Nissan,Leaf
+Nissan,Note
+Nissan,Juke
+Nissan,Pulsar
+Nissan,Qashqai
+Nissan,X-Trail
+Nissan,GT-R
+Nissan,370Z
+Nissan,Evalia
+Nissan,Navara
+Opel,Astra
+Opel,Cascada
+Opel,Karl
+Opel,Corsa
+Opel,Meriva
+Opel,Adam
+Opel,Adam Rocks
+Opel,Mokka
+Opel,Zafira Tourer
+Opel,Insignia
+Peugeot,208
+Peugeot,108
+Peugeot,Bipper Tepee
+Peugeot,308
+Peugeot,2008
+Peugeot,3008
+Peugeot,Partner Tepee
+Peugeot,4008
+Peugeot,5008
+Peugeot,508
+Porsche,911
+Porsche,Boxster
+Porsche,Cayman
+Porsche,Panamera
+Porsche,Macan
+Porsche,Cayenne
+Porsche,918 Spyder
+Renault,Mégane
+Renault,Twingo
+Renault,Zoe
+Renault,Clio
+Renault,Captur
+Renault,Kadjar
+Renault,Espace
+Renault,Scénic
+Renault,Talisman
+Renault,Kangoo
+Rolls Royce,Dawn
+Rolls Royce,Wraith 
+Rolls Royce,Ghost Série 2
+Rolls Royce,Phantom Série 2
+Seat,Leon
+Seat,Ibiza
+Seat,Mii
+Seat,Toledo
+Seat,Alhambra
+Skoda,Superb
+Skoda,Citigo
+Skoda,Fabia
+Skoda,Rapid
+Skoda,Octavia
+Skoda,Yéti
+Smart,Forfour
+Smart,Fortwo
+Subaru,XV
+Subaru,WRX
+Subaru,BRZ
+Subaru,Forester
+Subaru,Levorg
+Subaru,Outback
+Suzuki,Vitara
+Suzuki,Celerio
+Suzuki,Swift
+Suzuki,S-Cross
+Tesla,Model S
+Toyota,Prius
+Toyota,Verso
+Toyota,Aygo
+Toyota,Yaris
+Toyota,Auris
+Toyota,Avensis
+Toyota,RAV4
+Toyota,Land Cruiser
+Toyota,Hi-Lux
+Toyota,GT86
+Volkswagen,Touran
+Volkswagen,Up!
+Volkswagen,Polo
+Volkswagen,Coccinelle
+Volkswagen,Golf
+Volkswagen,Golf Sportsvan
+Volkswagen,Golf Cabriolet
+Volkswagen,Passat
+Volkswagen,CC
+Volkswagen,Tiguan
+Volkswagen,Sharan
+Volkswagen,Touareg
+Volkswagen,Phaeton
+Volkswagen,Amarok
+Volkswagen,Jetta
+Volkswagen,Scirocco
+Volvo,XC90
+Volvo,V40
+Volvo,S60
+Volvo,XC60
+Volvo,V70
+Volvo,S90
+Volvo,XC70
+Volvo,V60
