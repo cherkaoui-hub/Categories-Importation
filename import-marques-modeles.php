@@ -46,61 +46,49 @@ function getCategorieByName($name,$categories) {
     return NULL;
 }
 
-function getCategorieByID($id,$categories) {
-    foreach ($categories as $categorie) {
-        if($categorie->id==$id){
-            return $categorie;
-        }
-    }
-    return NULL;
-}
-
-//get all the categories
-$categories = $woocommerce->get('products/categories');
 
 try {
     
-$mainCategorie = 'Marques auto';
-if(!getCategorieByName($mainCategorie,$categories)){
-    //push the category in woocommerce categories
-    $c= $woocommerce->post('products/categories', ['name' => $mainCategorie]);  
-    array_push($categories,$c);
+//Creat the main category
+$main_category = 'Marques auto';
+//Search for the Main category
+$main_cat_obj = $woocommerce->get('products/categories',['search' => $main_category]);
+if(empty($main_cat_obj)){
+    $main_cat_obj = array($woocommerce->post('products/categories', ['name' => $main_category]));  
 }
 
-//Get the main categorie object
-$mainCategorieObj = getCategorieByName($mainCategorie,$categories);
 
-
+//loop the file lines in Csv
 foreach(array_slice($marque_modeles, 1) as $marque_modele) {
-    
+
     $marque = $marque_modele[0];
     $modele = $marque_modele[1];
     
-    //Get the Marque object
-    $getMarque = getCategorieByName($marque,$categories);
-    if(!$getMarque){
-        $marqueObj= $woocommerce->post('products/categories', ['name' => $marque,'parent' => $mainCategorieObj->id]);
-        array_push($categories,$marqueObj);
+    //Search for the Marque object
+    $get_marque = $woocommerce->get('products/categories',['search' => $marque]);
+    if(empty($get_marque)){
+        $get_marque = array($woocommerce->post('products/categories', ['name' => $marque,'parent' => $main_cat_obj[0]->id]));
      }
     
-    $getMarque = getCategorieByName($marque,$categories); 
-    //Get the Modele object
-    $getModele = getCategorieByName($modele,$categories);
-    if(!$getModele && $getMarque){
-        $modeleObj= $woocommerce->post('products/categories', ['name' => $modele,'parent' => $getMarque->id]);
-        array_push($categories,$modeleObj);
+    //Search for the Modele object
+    $get_modele = $woocommerce->get('products/categories',['search' => $modele]);
+    if(empty($getModele) && !empty($get_marque)){
+        $woocommerce->post('products/categories', ['name' => $modele,'parent' => $get_marque[0]->id]);
      }
 }
 
-    
+
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
 
 
-
 /*
-
+//How to delete categories 
+$cs = $woocommerce->get('products/categories',['per_page' => 200]);
+foreach($cs as $c) {
+    print_r($woocommerce->delete('products/categories/'.$c->id, ['force' => true]));
+}
 */
 
 
